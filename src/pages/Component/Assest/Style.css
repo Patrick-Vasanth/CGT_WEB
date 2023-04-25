@@ -1,5 +1,4 @@
 @import url("https://unpkg.com/bootstrap@5.2.3/dist/css/bootstrap.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@100&display=swap");
 
@@ -111,34 +110,31 @@
 }
 
 .title {
-  
-width: 663px;
-height: 46px;
-left: 43px;
-top: 13px;
+  width: 663px;
+  height: 46px;
+  left: 43px;
+  top: 13px;
 
-font-family: 'Hahmlet';
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-
+  font-family: "Hahmlet";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
 }
-.sub{
+.sub {
   padding-top: 12%;
 }
 
 .subTitle {
-  
-width: 402px;
-height: 44px;
-padding-left: 6%;
-padding-top: 6%;
+  width: 402px;
+  height: 44px;
+  padding-left: 6%;
+  padding-top: 6%;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-color: #FFFFFF;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
 }
 
 .container {
@@ -374,4 +370,3 @@ color: #FFFFFF;
   text-align: center;
   padding: 0.75rem !important;
 }
-
