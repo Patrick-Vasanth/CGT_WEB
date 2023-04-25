@@ -1,0 +1,377 @@
+@import url("https://unpkg.com/bootstrap@5.2.3/dist/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@100&display=swap");
+
+/*SignUP*/
+
+/* .bgStyle {
+  background: linear-gradient(
+    180deg,
+    #586250 0%,
+    rgba(87, 205, 106, 0.22) 100%
+  );
+  width: 100vw;
+  height: 100vh;
+}
+
+.signUp {
+  box-sizing: border-box;
+  width: 370px;
+  height: 500px;
+
+  color: #ffffff;
+  background: #4a9a49;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.btnSubmit {
+  background-color: #4a9a49;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  width: 300px;
+  height: 40px;
+  border-radius: 7px;
+}
+
+.btnSubmit:hover {
+  background-color: #ffffff;
+  color: #4a9a49;
+  border-color: #586250;
+}
+
+.input {
+  border: 2px solid #ffffff;
+  width: 300px;
+  height: 40px;
+  border-radius: 7px;
+}
+
+.input:hover {
+  border-color: #586250;
+} */
+
+/*-------------------------------------------*/
+
+/*HomePage*/
+/*NavBar*/
+
+.navBar {
+  background-color: #206a5d;
+}
+
+.navItem {
+  padding-right: 6%;
+  font-size: 20px;
+}
+
+.item {
+  color: #ffffff;
+  font-family: "Nunito";
+  padding: 20px !important;
+  font-weight: 600;
+}
+
+.logo {
+  /* padding-left: 6%; */
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: 85px;
+  top: 1px;
+  justify-content: center;
+}
+
+.img {
+  width: 75px !important;
+  height: 75px !important;
+}
+
+.studentCount {
+  box-sizing: border-box;
+  width: 750px !important;
+  height: 450px !important;
+  color: #ffffff;
+  position: absolute;
+  background: #206a5d;
+  border: 2px solid #ffffff;
+  border-radius: 12px;
+  font-weight: 600;
+  text-align: start;
+  top: 150px;
+}
+
+.title {
+  
+width: 663px;
+height: 46px;
+left: 43px;
+top: 13px;
+
+font-family: 'Hahmlet';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+
+}
+.sub{
+  padding-top: 12%;
+}
+
+.subTitle {
+  
+width: 402px;
+height: 44px;
+padding-left: 6%;
+padding-top: 6%;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+color: #FFFFFF;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+/*-----------------------*/
+/*Referral*/
+/*Student*/
+
+.referralTitle {
+  position: absolute;
+  width: 183px;
+  height: 58px;
+  left: 69px;
+  top: 125px;
+  font-family: "Hahmlet";
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 40px;
+  line-height: 58px;
+}
+
+.referralTitle1 {
+  font-weight: 600;
+  margin-left: 6%;
+  font-family: "Nunito";
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.referralCreate {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 300px;
+  height: 80px;
+  left: 338px;
+  top: 200px;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 55px;
+  color: #ffffff;
+
+  background: #1f4068;
+  border: 1px solid #ebecf1;
+  border-radius: 12px;
+}
+
+.referralList {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 300px;
+  height: 80px;
+  left: 830px;
+  top: 200px;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 55px;
+  color: #ffffff;
+
+  background: #1f4068;
+  border: 1px solid #ebecf1;
+  border-radius: 12px;
+}
+
+.bodyBar {
+  position: absolute;
+  width: 100vw;
+  height: 80px;
+  left: 0px;
+  top: 320px;
+
+  background: #206a5d;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+}
+
+.bodyBarTitle {
+  font-family: "Nunito";
+  left: 52px !important;
+  position: relative;
+  top: 25px !important;
+}
+
+.search {
+  position: absolute;
+  width: 271px !important;
+  height: 46px;
+  right: 52px;
+  top: 15px;
+
+  background: #ebecf1;
+  border-radius: 10px;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 72px;
+  top: 28px;
+  color: #000000;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.tableHeading {
+  position: absolute;
+  width: 100vw;
+  height: 60px;
+  top: 400px;
+
+  background: #1f4068;
+}
+
+.table {
+  width: 100vw !important;
+  table-layout: fixed;
+}
+
+.head {
+  width: calc(100vw / 4) !important;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33px;
+  color: #ffffff;
+  font-size: 16px;
+  border-bottom-width: 0px !important;
+  text-align: center;
+  padding: 0.75rem !important;
+}
+
+.studentTableHeading {
+  position: absolute;
+  width: 100vw;
+  height: 60px;
+  top: 400px;
+
+  background: #1f4068;
+}
+
+.studentTable {
+  width: 100vw !important;
+  table-layout: fixed;
+}
+
+.studentHead {
+  width: calc(100vw / 5) !important;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33px;
+  color: #ffffff;
+  font-size: 16px;
+  border-bottom-width: 0px !important;
+  text-align: center;
+  padding: 0.75rem !important;
+}
+
+/*LIST for Student & Referral */
+
+.listBodyBar {
+  position: absolute;
+  width: 100vw;
+  height: 80px;
+  left: 0px;
+  top: 88px !important;
+
+  background: #206a5d;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+}
+
+.listBodyBarTitle {
+  font-family: "Nunito";
+  left: 52px !important;
+  position: relative;
+  top: 25px !important;
+  margin-top: 0 !important;
+}
+
+.listTableHeading {
+  position: absolute;
+  width: 100vw;
+  height: 60px;
+  top: 168px !important;
+
+  background: #1f4068;
+}
+
+.listTable {
+  width: 100vw !important;
+  table-layout: fixed;
+}
+
+.listHead {
+  width: calc(100vw / 4) !important;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33px;
+  color: #ffffff;
+  font-size: 16px;
+  border-bottom-width: 0px !important;
+  text-align: center;
+  padding: 0.75rem !important;
+}
+
+.studentListHead {
+  width: calc(100vw / 5) !important;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33px;
+  color: #ffffff;
+  font-size: 16px;
+  border-bottom-width: 0px !important;
+  text-align: center;
+  padding: 0.75rem !important;
+}
+
